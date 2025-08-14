@@ -1,0 +1,239 @@
+.lexend-deca {
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal; 
+}
+
+.cal-sans-regular {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inconsolata {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.spectral-extralight {
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.spectral-light {
+    font-family: "Spectral", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.spectral-regular {
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.spectral-medium {
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.spectral-semibold {
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.spectral-bold {
+    font-family: "Spectral", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.spectral-extrabold {
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.spectral-extralight-italic {
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.spectral-light-italic {
+    font-family: "Spectral", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.spectral-regular-italic {
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.spectral-medium-italic {
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.spectral-semibold-italic {
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.spectral-bold-italic {
+    font-family: "Spectral", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.spectral-extrabold-italic {
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+body {
+    margin: 0 auto;
+    background-color: black;
+    color:  chartreuse;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: rgba(37, 36, 36, 0.678);
+}
+
+.HDR-L-Col {
+    display: flex;
+    align-items: center;
+}
+
+.HDR-M-Col h1 {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.bi {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.hero-txt {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.About-Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.FOOTER-SOCIAL {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.FOOTER-SOCIAL a {
+    margin: 0 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(37, 36, 36, 0.678);
+    color: chartreuse;
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(37, 36, 36, 0.678);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0px 8px rgba(240, 236, 236, 0.548);
+    transition: transform 0.3s ease;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-txt {
+    text-align: center;
+    font-style: oblique;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
